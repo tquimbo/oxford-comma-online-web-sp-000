@@ -14,6 +14,7 @@ elsif new_array.count() == 2
 elsif new_array.count() >= 3
   new_array.insert(-2, "and")
   new_array.join(", ")
+  new_array.delete(-2)
 #correctly formats arrays of lengths greater then three
 #commas, between every word then the final , and
 
