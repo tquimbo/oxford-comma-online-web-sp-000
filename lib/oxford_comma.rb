@@ -13,7 +13,6 @@ puts '#{array}'
 #commas, between every word then the final , and
 
 end
-end
 
 
 
