@@ -13,7 +13,6 @@ new_array = array
 #commas, between every word then the final , and
 
 end
-end
 
 
 #
