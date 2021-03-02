@@ -6,7 +6,9 @@ new_array = array
 if new_array.count() == 1
  return new_array.join
 # if there is two elements, add and between them
-# elsif array.length == 2, return array.join("and")
+elsif new_array.count() == 2
+ return new_array.join("and")
+
 # #if there are three elements, add commas and a final and last element in an array you ,and
 # elsif array.length == 3, return array.split()
 
