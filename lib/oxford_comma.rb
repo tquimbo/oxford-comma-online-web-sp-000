@@ -13,7 +13,7 @@ elsif new_array.count() == 2
 # elsif array.length == 3, return array.split()
 elsif new_array.count() >= 3
   new_array.insert(-2, "and")
-  new_array.join(", ")
+  new_array.join(1 ,", ")
 #correctly formats arrays of lengths greater then three
 #commas, between every word then the final , and
 
