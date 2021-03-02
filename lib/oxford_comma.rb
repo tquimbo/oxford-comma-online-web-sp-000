@@ -1,5 +1,5 @@
 def oxford_comma(array)
-puts '[#{array}]'
+puts array
 #how to get the array elemets to use in my code
 # if there is one element in a array, return string
 # we need to count elemets in an array
