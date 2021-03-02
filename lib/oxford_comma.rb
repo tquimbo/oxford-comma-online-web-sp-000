@@ -14,6 +14,6 @@ if new_array.count() == 1
 #commas, between every word then the final , and
 
 end
-
+end
 
 #
