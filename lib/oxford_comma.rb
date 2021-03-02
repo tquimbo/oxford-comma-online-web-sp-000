@@ -12,7 +12,7 @@ elsif new_array.count() == 2
 # #if there are three elements, add commas and a final and last element in an array you ,and
 # elsif array.length == 3, return array.split()
 elsif new_array.count() >= 3
- return new_array.join(",")
+ return new_array.join(", ")
 #correctly formats arrays of lengths greater then three
 #commas, between every word then the final , and
 
