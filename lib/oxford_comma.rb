@@ -13,6 +13,8 @@ elsif new_array.count() == 2
 # elsif array.length == 3, return array.split()
 elsif new_array.count() >= 3
   last_array_item = "and #{array[-1]}"
+  array.pop
+  array.push (last_array_item)
   new_array.join(", ")
 
 #correctly formats arrays of lengths greater then three
